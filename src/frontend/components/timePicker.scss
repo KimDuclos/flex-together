@@ -1,32 +1,12 @@
 $break-800: 800px;
+$break-500: 500px;
 
-// h3 {
-//   @media screen and (max-width: $break-800) {
-//     text-align: center;
-//     margin: 2% 0 0 0%;
-//   }
-// }
-
-// p {
-//   @media screen and (max-width: $break-800) {
-//     text-align: center;
-//     width: 70%;
-//     margin: 2% 0 0 26%;
-//   }
-// }
-
-// h4 {
-//   @media screen and (max-width: $break-800) {
-//     text-align: center;
-//     margin: 2% 0 0 18%;
-//   }
-// }
-
-// select {
-//   @media screen and (max-width: $break-800) {
-//     margin: 2% 0 0 19%;
-//   }
-// }
+.dayWrapper {
+    @media screen and (max-width: $break-500) {
+        margin: 0%;
+        width: 14%;
+    }
+}
 
 .timePickerContainer {
   @media screen and (max-width: $break-800) {
@@ -34,8 +14,19 @@ $break-800: 800px;
   }
 }
 
+label {
+    @media screen and (max-width: $break-500) {
+        font-size: 10px;
+    }
+}
+
 .timeBlock {
     @media screen and (max-width: $break-800) {
         width: 100%;
+    }
+    @media screen and (max-width: $break-500) {
+        width: 80%;
+        font-size: 12px;
+        height: auto;
     }
 }
