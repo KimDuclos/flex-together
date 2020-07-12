@@ -1,4 +1,5 @@
 import React from 'react';
+import "./tellMore.scss";
 
 class TellMore extends React.Component {
 	constructor(props) {
