@@ -1,0 +1,20 @@
+$break-500: 500px;
+$break-mobile: 411px;
+
+.whoAreYouText {
+  @media screen and (max-width: $break-500) {
+    width: 95%;
+    margin: 0 auto 0 auto;
+  }
+  @media screen and (max-width: $break-mobile) {
+    width: 95%;
+    margin: 0 auto 0 auto;
+  }
+  .btns {
+    height: 200px;
+  }
+  .btnFix {
+    height: auto;
+    padding: 2% 0 2% 0;
+  }
+}
