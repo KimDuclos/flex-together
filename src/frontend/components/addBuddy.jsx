@@ -1,6 +1,6 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
 import axios from 'axios';
+import "./addBuddy.scss";
 
 class AddBuddy extends React.Component {
 	constructor() {

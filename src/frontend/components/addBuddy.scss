@@ -1,0 +1,21 @@
+$break-1000: 1000px;
+$break-500: 500px;
+
+p {
+    @media screen and (max-width: $break-1000) {
+        width: 95%;
+        margin: 0 auto 0 auto;
+    }
+}
+
+.mobilityBtns {
+    @media screen and (max-width: $break-500) {
+        margin: 1%;
+    }
+}
+
+.nextBtn {
+    @media screen and (max-width: $break-500) {
+        margin: 2% 0 2% 0;
+    }
+}
