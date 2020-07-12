@@ -1,5 +1,6 @@
 import React from 'react';
 import TimeBlockDisplay from './timeBlockDisplay';
+import "./timePicker.scss";
 
 class TimePicker extends React.Component {
 	constructor() {

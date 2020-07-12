@@ -1,0 +1,41 @@
+$break-800: 800px;
+
+// h3 {
+//   @media screen and (max-width: $break-800) {
+//     text-align: center;
+//     margin: 2% 0 0 0%;
+//   }
+// }
+
+// p {
+//   @media screen and (max-width: $break-800) {
+//     text-align: center;
+//     width: 70%;
+//     margin: 2% 0 0 26%;
+//   }
+// }
+
+// h4 {
+//   @media screen and (max-width: $break-800) {
+//     text-align: center;
+//     margin: 2% 0 0 18%;
+//   }
+// }
+
+// select {
+//   @media screen and (max-width: $break-800) {
+//     margin: 2% 0 0 19%;
+//   }
+// }
+
+.timePickerContainer {
+  @media screen and (max-width: $break-800) {
+    width: 95%;
+  }
+}
+
+.timeBlock {
+    @media screen and (max-width: $break-800) {
+        width: 100%;
+    }
+}
