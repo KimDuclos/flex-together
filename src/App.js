@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route } from 'react-router-dom';
+import { Route, Router } from 'react-router-dom';
 
 // CSS as needed
 import './App.css';
@@ -24,16 +24,18 @@ class App extends Component {
 	render() {
 		return (
 			<div className="App">
-				<Route exact path="/" component={Welcome} />
-				<Route path="/whoAreYou" component={WhoAreYou} />
-				<Route path="/tellMore" component={TellMore} />
-				<Route path="/timePicker" component={TimePicker} />
-				<Route path="/addBuddy" component={AddBuddy} />
-				<Route path="/buddyTimePicker" component={BuddyTimePicker} />
-				<Route path="/timeAssignment" component={TimeAssignment} />
-				<Route path="/noMatchTime" component={NoMatchTime} />
-				<Route path="/buddyInvite" component={buddyInvite} />
-				<Route path="/thanks" component={Thanks} />
+				<Router>
+					<Route exact path="/" component={Welcome} />
+					<Route path="/whoAreYou" component={WhoAreYou} />
+					<Route path="/tellMore" component={TellMore} />
+					<Route path="/timePicker" component={TimePicker} />
+					<Route path="/addBuddy" component={AddBuddy} />
+					<Route path="/buddyTimePicker" component={BuddyTimePicker} />
+					<Route path="/timeAssignment" component={TimeAssignment} />
+					<Route path="/noMatchTime" component={NoMatchTime} />
+					<Route path="/buddyInvite" component={buddyInvite} />
+					<Route path="/thanks" component={Thanks} />
+				</Router>
 			</div>
 		);
 	}
