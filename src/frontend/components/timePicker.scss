@@ -1,5 +1,12 @@
 $break-800: 800px;
 $break-500: 500px;
+$break-411: 411px;
+
+form {
+    @media screen and (max-width: $break-411) {
+        width: 95%;
+    }
+}
 
 .dayWrapper {
     @media screen and (max-width: $break-500) {
@@ -28,5 +35,8 @@ label {
         width: 80%;
         font-size: 12px;
         height: auto;
+    }
+    @media screen and (max-width: $break-411) {
+        padding: 1px;
     }
 }
