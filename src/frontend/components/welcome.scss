@@ -21,6 +21,11 @@ $break-mobile: 411px;
   bottom: 0px;
   height: 100%;
   z-index: 0;
+  @media screen and (max-width: $break-mobile) {
+    // position: relative;
+    margin: 0 0 0 85%;
+    height: 50%;
+  }
 }
 
 .title {
@@ -61,7 +66,7 @@ $break-mobile: 411px;
   padding: 9px 15px;
   width: 550px;
   // position: absolute;
-  z-index: 300;
+  z-index: 401;
   margin: 25% 30% 0 0;
   @media screen and (max-width: $break-1000) {
     margin: 24% 0 0 5%;
