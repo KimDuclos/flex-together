@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import TimeButtons from './timeDisplay/timeButtons';
+import TimeButtons from './timeButtons';
 
 class BuddyTimePicker extends React.Component {
 	constructor(props) {

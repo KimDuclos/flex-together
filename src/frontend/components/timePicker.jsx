@@ -1,5 +1,5 @@
 import React from 'react';
-import TimeBlockDisplay from './timeDisplay/timeBlockDisplay';
+import TimeBlockDisplay from './timeBlockDisplay';
 
 class TimePicker extends React.Component {
 	constructor() {
